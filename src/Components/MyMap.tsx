@@ -6,7 +6,7 @@ import "leaflet/dist/leaflet.css"
 export default function MyMap() {
   const center: any = [7.338606356956359, -2.313385785454429]
   return (
-    <div>
+    <div className="-mt-16 z-10">
       <MapContainer
         center={center}
         zoom={10}
